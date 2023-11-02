@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('forest.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #4CAF50; /* A fallback background color in case the image doesn't load */
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 20px;
+  }
+  
+  .tic-tac-toe {
+    display: inline-block;
+    border: 2px solid #333;
+    background: rgba(255, 255, 255, 0.8); /* Adds a semi-transparent white background to the game board */
+    width: 300px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4); /* Adds a semi-transparent black background to the cells */
+    color: #fff;
+  }
+  
+  button {
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #status {
+    font-size: 18px;
+    margin: 10px;
+    color: #fff;
+  }
+  
+  
+  h1 {
+    font-size: 36px;
+    margin: 20px;
+  }
+  
+  .tic-tac-toe {
+    display: inline-block;
+    border: 2px solid #333;
+    width: 300px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  button {
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #status {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
